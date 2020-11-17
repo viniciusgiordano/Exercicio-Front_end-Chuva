@@ -1,0 +1,85 @@
+.sidenav {
+    position: absolute;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    height: 536px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+
+.nome-evento{
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);;
+    position: static;
+    width: 220px;
+    height: 68px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 0px;
+
+    /* Titulo */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sidenav h3{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+
+    color: #725C5C;
+}
+.sidenav h3.apresentação,
+         h3.comitês,
+         h3.autores,
+         h3.eixos,
+         h3.trabalhos,
+         h3.contato
+{
+    position: static;
+    width: 220px;
+    height: 35px;
+    left: 0px;
+    right: 40%;
+    flex: none;
+    align-self: center;
+    justify-self: center;
+    flex-grow: 0;
+    margin: 0px 0px;
+
+    border-bottom: 1px solid #E7E7E7;
+}
+.sidebar h3.trabalhos{
+    background: #f5d2c0;
+}
