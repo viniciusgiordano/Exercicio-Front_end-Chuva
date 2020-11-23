@@ -399,3 +399,65 @@ hr{
     color: #4D4D4D;
     
 }
+.topicos-discussao2{
+    position: absolute;
+    width: 1028px;
+    height: 148px;
+    left: 15px;
+    top: 1219px;
+    left: 1.42%;
+    right: 1.51%;
+    top: 75%;
+    bottom: 1.09%;
+
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.discussao-assunto2{
+    left: 3.7%;
+    right: 71.09%;
+    top: 89.44%;
+    bottom: 9.12%;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #ED7839;
+}
+
+.discussao-autor2{
+    left: 3.7%;
+    right: 45.11%;
+    top: 91.1%;
+    bottom: 7.81%;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #5C5C5C;
+}
+
+.discussao-pergunta2{
+    left: 3.7%;
+    right: 3.7%;
+    top: 92.91%;
+    bottom: 4.56%;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #4D4D4D;
+    
+}
