@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chuva-Exercício Front-End</title>
 
     <!--Estilos-->
-    <link rel="stylesheet" href="styles/side-menu.css">    
+    <link rel="stylesheet" href="styles/side-menu.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/page-content.css">
+    <link rel="stylesheet" href="styles/footer.css">
 
     <!--Fontes-->
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!-- Side-Menu -->
     <div class="sidenav">
         <div class="sidebar">
             <h2 class="nome-evento">SLACA 2019</h2>
             <img src="images/logo-slaca.png" alt="13 Slaca" width="220px" height="258px">
-            <h3 class="apresentação">Apresentação</h3>
-            <h3 class="comitês">Comitês</h3>
-            <h3 class="autores">Autores</h3>
-            <h3 class="eixos">Eixos temáticos</h3>
-            <h3 class="trabalhos">Trabalhos</h3>
-            <h3 class="contato">Contato</h3>
+            <a class="apresentação">Apresentação</a>
+            <a class="comitês">Comitês</a>
+            <a class="autores">Autores</a>
+            <a class="eixos">Eixos temáticos</a>
+            <a href="#" class="trabalhos">Trabalhos</a>
+            <a class="contato">Contato</a>
         </div>
     </div>
 
@@ -34,7 +37,7 @@
         <p class="p1">Anais do Simpósio Latino Americano de Ciências de Alimentos </p>
         <p class="p2">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos </p>
         <p class="p3">ISSN: 1234-5678</p>
-        
+
         <button class="dropbtn">PT-BR</button>
 
         <p class="bem-vindo">Bem-Vindo!</p>
@@ -43,7 +46,8 @@
     </div>
 
     <div class="page-content">
-        <p class="page-titulo">Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </p>
+        <p class="page-titulo">Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15
+            anos, do município de Campinas/SP </p>
 
         <button class="downloadbtn" type="button" onclick="alert('Download iniciado')">Download</button>
         <button class="favbtn">FAV</button>
@@ -52,15 +56,76 @@
         <p class="citacao">COMO CITAR ESSE TRABALHO?</p>
 
         <div class="video-apresentacao">
-            <h3 class="video-titulo">Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </h3>
+            <h3 class="video-titulo">Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e
+                15 anos, do município de Campinas/SP </h3>
             <h3 class="video-nome">Beatriz Christiane Melo</h3>
-            <h5 class="video-universidade">FCA / Universidade Estadual de Campinas</h5>
+            <h5 class="video-universidade">FCA/Universidade Estadual de Campinas</h5>
         </div>
 
         <div class="detalhes">
-            
+            <div class="detalhes-header">
+                <p>Detalhes</p>
+            </div>
+            <p class="detalhes-poster">Tipo de Apresentação: <b>Pôster</b> <br>
+                Eixo temático: <b>Alimentação e saúde (AS)</b> <br>
+                Palavras-chaves: <b>Alimentos funcionais, alimentação escolar.</b>
+                <br>
+                <br>
+                
+                <b>Autores:</b>
+                <br>
+                Galileo Galilei¹ <br>
+                Berta Lange de Morretes² <br>
+                Isaac Newton³<br>
+                Cesar Lattes¹<br>
+                Stephen Hawking⁴
+                <br>
+                <br>
+                ¹Universidade Estadual de Campinas <br>
+                ²Universidade de São Paulo <br>
+                ³Instituto Nacional de Pesquisas Espaciais <br>
+                ⁴Universidade Federal do Rio de Janeiro</p>
+        </div>
+        
+        <div class="resumo">
+            <div class="resumo-header">
+                <p>Resumo</p>
+            </div>
+            <div class="resumo-texto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. 
+                    Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. 
+                    Fusce auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, 
+                    vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  
+                    Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
+                    Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum 
+                    Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
+                    Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.  
+                    Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant.</p>
+            </div>
+        </div>
+
+        <div class="topicos">
+            <div class="topicos-header">
+                <p>Discussões</p>
+            </div>
+
+            <h4 class="topicos-titulo">Compartilhe suas ideias ou dúvidas com os autores!</h4>
+            <p class="topicos-subtitulo">Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
+            <button class="topicos-criar">Criar Tópico</button>
+            <hr>
+            <div class="topicos-discussao">
+                <p class="discussao-assunto">Assunto da pergunta aparece aqui</p>
+                <p class="discussao-autor">Vinicius Giordano</p>
+                <p class="discussao-pergunta">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
+            </div>        
+        </div>
+
+        <div class="rodape">
+            <img src="images/galoa-footer.png" alt="Galoá anais e proceedings">
         </div>
     </div>
 
 </body>
+
 </html>

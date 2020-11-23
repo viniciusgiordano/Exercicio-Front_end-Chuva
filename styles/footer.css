@@ -1,0 +1,14 @@
+.rodape{
+    position: absolute;
+    width: 1146px;
+    height: 181px;
+    top: 1520px;
+}
+
+.rodape img{
+    position: absolute;
+    height: 181px;
+    right: 1.01%;
+    top: 0%;
+    bottom: 0%;
+}

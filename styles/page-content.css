@@ -5,7 +5,13 @@
     left: 263px;
     top: 88px;
 }
-
+hr{
+    position: absolute;
+    width: 1027px;
+    height: 0px;
+    left: 16px;
+    top: 250px;
+}
 .page-titulo{
     position: absolute;
     height: 54px;
@@ -78,9 +84,9 @@
 .citacao{
     position: absolute;
     height: 25px;
-    left: 820px;
+    left: 810px;
     right: 0px;
-    top: 43px;
+    top: 35px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -132,14 +138,12 @@
     display: flex;
     height: 36px;
     left: 134px;
-    right: 400px;
-    top: 384px;
+    top: 365px;
+    /* right: 473px; */
     margin: 0;
 
     font-weight: 900;
     font-size: 34px;
-    
-    
 
     color: #FFFFFF;
 }
@@ -148,12 +152,250 @@
     position: absolute;
     height: 27px;
     left: 136px;
-    right: 506px;
-    top: 425px;
+    /* right: 506px; */
+    top: 400px;
+    margin: 0;
 
     font-weight: 900;
     font-size: 20px;
     text-align: justify;
     
     color: #FFFFFF;
+}
+
+.detalhes{
+    position: absolute;
+    width: 242px;
+    height: 439px;
+    left: 816px;
+    top: 73px;
+
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+
+}
+
+.detalhes-header{    
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #4E4E4E;
+} 
+
+.detalhes-poster{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 120%;
+    
+    letter-spacing: 0.02em;
+    
+    color: #5C5C5C;
+}
+
+.resumo{    
+    position: absolute;
+    width: 1058px;
+    height: 189px;
+    left: 0px;
+    top: 542px;
+
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.resumo-header{
+    width: 1058px;
+    height: 45px;
+    left: 0px;
+    top: 542px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #4E4E4E;
+
+    background: #FDF1EB;
+}
+
+.resumo-texto{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    
+    color: #5C5C5C;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.topicos{
+    position: absolute;
+    width: 1058px;
+    height: 621px;
+    left: 0px;
+    top: 761px;
+
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.topicos-header{
+    width: 1058px;
+    height: 45px;
+    left: 0px;
+    top: 761px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #4E4E4E;
+
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+}
+.topicos h4{
+    position: absolute;
+    left: 30.64%;
+    right: 29.51%;
+    top: 10%;
+    bottom: 39%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #ED7839;
+    
+}
+.topicos-subtitulo {
+    position: absolute;
+    left: 20.44%;
+    right: 20.44%;
+    top: 20%;
+    bottom: 28.15%;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #595959;
+    
+}
+.topicos-criar{
+    position: absolute;
+    left: 43.72%;
+    right: 43.72%;
+    bottom: 65%;
+    
+    color: #FFFFFF;
+
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+}
+
+.topicos-discussao{
+    position: absolute;
+    width: 1028px;
+    height: 148px;
+    left: 15px;
+    top: 1054px;
+    left: 1.42%;
+    right: 1.51%;
+    top: 50%;
+    bottom: 13.02%;
+
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.discussao-assunto{
+    left: 3.7%;
+    right: 71.09%;
+    top: 77.5%;
+    bottom: 21.06%;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #ED7839;
+}
+
+.discussao-autor{
+    left: 3.7%;
+    right: 45.11%;
+    top: 79.16%;
+    bottom: 19.75%;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    
+    color: #5C5C5C;
+}
+
+.discussao-pergunta{
+    left: 3.7%;
+    right: 3.7%;
+    top: 80.97%;
+    bottom: 16.5%;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #4D4D4D;
+    
 }
