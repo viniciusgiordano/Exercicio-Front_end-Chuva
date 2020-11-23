@@ -1,0 +1,64 @@
+.criando{
+    position: absolute;
+    width: 1042px;
+    height: 183px;
+    left: -2px;
+    top: 50px;
+}
+.assunto{
+    position: absolute;
+    width: 1020.52px;
+    left: 1.42%;
+    /* top: 16.33%; */
+    bottom: 75.92%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #ED7839;
+}
+
+.assunto-def{
+    position: absolute;
+    width: 50%;
+    height: 30px;
+    left: 1.42%;
+    right: -0.05px;
+    top: 60px;
+    /* bottom: 146px; */
+    
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+#descricao{
+    position: absolute;
+    width: 80%;
+    left: 1.42%;
+    right: 0%;
+    top: 53.88%;
+    bottom: 0%;
+    
+    
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.enviar{
+    position: absolute;
+    width: 10%;
+    height: 40px;
+    left: 85%;
+    right: 0.15%;
+    top: 60%;
+    
+    color: #FFFFFF;
+    
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 4px 4px 4px 4px;
+}
